@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="20" errors="1" failures="0" skip="0"><testcase classname="test_calculatorApp.TestCalculate" name="test_AddTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+0 0
+inputs can not be null
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase2" time="0.000"><system-out><![CDATA[Setup .. 
+6 3
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase3" time="0.000"><system-out><![CDATA[Setup .. 
+5 6
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase4" time="0.000"><system-out><![CDATA[Setup .. 
+5 6
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase5" time="0.000"><system-out><![CDATA[Setup .. 
+5 6
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase6" time="0.000"><system-out><![CDATA[Setup .. 
+12 6
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateTestCase7" time="0.000"><error type="builtins.ValueError" message="inputs can not be null&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;12 0&#10;inputs can not be null&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\moham\anaconda3\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "C:\Users\moham\anaconda3\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\moham\anaconda3\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "C:\Users\moham\Desktop\New folder (6)\UnitTestInPython\test_calculatorApp.py", line 44, in test_CalculateTestCase7
+    self.assertRaises(ZeroDivisionError, calculate, 4,12,0)
+  File "C:\Users\moham\anaconda3\lib\unittest\case.py", line 816, in assertRaises
+    return context.handle('assertRaises', args, kwargs)
+  File "C:\Users\moham\anaconda3\lib\unittest\case.py", line 202, in handle
+    callable_obj(*args, **kwargs)
+  File "C:\Users\moham\Desktop\New folder (6)\UnitTestInPython\calculatorApp.py", line 53, in calculate
+    raise ValueError("inputs can not be null")
+inputs can not be null
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+12 0
+inputs can not be null
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+12 0
+inputs can not be null
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+Input can't be empty
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputTestCase2" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputTestCase3" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputTestCase4" time="0.000"><system-out><![CDATA[Setup .. 
+w input is not a number!
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_DivideTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+You can't divide by zero!
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_DivideTestCase2" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_DivideTestCase3" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExitTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExitTestCase2" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExitTestCase3" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_multiplyTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_subtractTestCase1" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase></testsuite>
